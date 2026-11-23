@@ -4,10 +4,10 @@
 
 namespace football {
 
-// team data read from the input file. Doesn't change during running
+// team data read from the input file. Doesn't change during a run
 struct Team {
   std::string name;
-  double elo = 1500.0;    // strength rating;
+  double elo = 1500.0;    // strength rating
   double homeBonus = 0.0; // extra strength when playing at home
 };
 

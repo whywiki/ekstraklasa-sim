@@ -28,7 +28,7 @@ class LeagueTable {
 public:
   explicit LeagueTable(std::size_t teamCount);
 
-  // updates both teams after a gameu
+  // updates both teams after a game
   void add(const GameResult &result);
 
   // rows from first place to last.
