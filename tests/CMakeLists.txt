@@ -11,6 +11,7 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(simulator_tests
     hello_test.cpp
+    table_test.cpp
 )
 target_link_libraries(simulator_tests PRIVATE simulator_lib GTest::gtest_main)
 
