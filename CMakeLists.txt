@@ -11,6 +11,7 @@ add_library(simulator_lib
     src/core/hello.cpp
     src/input/team_loader.cpp
     src/league/schedule.cpp
+    src/score/score_model.cpp
     src/league/table.cpp
 )
 target_include_directories(simulator_lib PUBLIC src)
