@@ -20,6 +20,7 @@ public:
   // adds counts from another object (used to join results from threads)
   void merge(const PositionStats &other);
 
+  // TODO(wiki): add relegationChance(team): chance to finish in the last 3
   // Chance (0 to 1) that a team finishes in a position. Position starts at 0
   [[nodiscard]] double probability(TeamId team, std::size_t position) const;
 

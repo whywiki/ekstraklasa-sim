@@ -11,7 +11,7 @@
 
 namespace football {
 
-// plays all games once. Returns the final table first place first
+// plays all games once. Returns the final table, best team first
 [[nodiscard]] std::vector<TableRow> playSeason(std::span<const Team> teams,
                                                const Schedule &schedule,
                                                const ScoreModel &model,
