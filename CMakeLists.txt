@@ -14,6 +14,8 @@ add_library(simulator_lib
     src/score/score_model.cpp
     src/stats/position_stats.cpp
     src/league/table.cpp
+    src/simulation/season.cpp
+    src/simulation/many_seasons.cpp
 )
 target_include_directories(simulator_lib PUBLIC src)
 
