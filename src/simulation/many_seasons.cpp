@@ -8,6 +8,7 @@ PositionStats playManySeasons(std::span<const Team> teams,
                               [[maybe_unused]] std::size_t seasons,
                               [[maybe_unused]] std::uint64_t seed) {
   // TODO(wiki): call playSeason many times and add each result
+  // TODO(wiki): later, split the seasons across several threads
   return PositionStats(teams.size());
 }
 
