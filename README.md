@@ -36,3 +36,20 @@ There are three of us and each person owns one part. Pick A or B and put your na
 Everyone writes tests for their own part in `tests/`.
 
 Search the code for `TODO(A)`, `TODO(B)` or `TODO(wiki)` to find your tasks.
+
+## Workflow
+
+You can't push to `main` directly. Every change goes through a pull request:
+
+1. Make a branch from `main`:
+   ```bash
+   git checkout main && git pull
+   git checkout -b feat/your-task
+   ```
+2. Commit and push your work:
+   ```bash
+   git push -u origin feat/your-task
+   ```
+3. Open a pull request on GitHub.
+4. Wait for the tests to pass (green tick). A PR with failing tests can't be merged.
+5. Merge with **Squash and merge** (this is the only option I enabled either way)
