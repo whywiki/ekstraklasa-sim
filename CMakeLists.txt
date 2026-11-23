@@ -20,3 +20,7 @@ endif()
 # The program
 add_executable(fsim src/app/main.cpp)
 target_link_libraries(fsim PRIVATE fsim_core)
+
+# Tests
+enable_testing()
+add_subdirectory(tests)
