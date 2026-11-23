@@ -8,12 +8,11 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Shared code, used by the app and the tests
 add_library(simulator_lib
-    src/core/hello.cpp
     src/input/team_loader.cpp
     src/league/schedule.cpp
+    src/league/table.cpp
     src/score/score_model.cpp
     src/stats/position_stats.cpp
-    src/league/table.cpp
     src/simulation/season.cpp
     src/simulation/many_seasons.cpp
 )
