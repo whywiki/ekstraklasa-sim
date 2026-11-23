@@ -9,6 +9,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Shared code, used by the app and the tests
 add_library(simulator_lib
     src/core/hello.cpp
+    src/input/team_loader.cpp
 )
 target_include_directories(simulator_lib PUBLIC src)
 
