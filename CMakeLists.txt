@@ -10,6 +10,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_library(simulator_lib
     src/core/hello.cpp
     src/input/team_loader.cpp
+    src/league/schedule.cpp
+    src/league/table.cpp
 )
 target_include_directories(simulator_lib PUBLIC src)
 
