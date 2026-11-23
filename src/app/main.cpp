@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
   const auto stats =
       football::playManySeasons(*teams, schedule, model, 100'000, 42);
 
-  // TODO(C): print the results
+  // TODO(wiki): print the results
   std::cout << "Simulated " << stats.seasons() << " seasons\n";
   return 0;
 }
