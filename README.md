@@ -14,7 +14,7 @@ cmake --build build
 ## Run
 
 ```bash
-./build/fsim
+./build/simulator
 ```
 
 ## Test

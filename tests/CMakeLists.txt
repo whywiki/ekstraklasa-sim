@@ -9,10 +9,10 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(fsim_tests
+add_executable(simulator_tests
     hello_test.cpp
 )
-target_link_libraries(fsim_tests PRIVATE fsim_core GTest::gtest_main)
+target_link_libraries(simulator_tests PRIVATE simulator_lib GTest::gtest_main)
 
 include(GoogleTest)
-gtest_discover_tests(fsim_tests)
+gtest_discover_tests(simulator_tests)
