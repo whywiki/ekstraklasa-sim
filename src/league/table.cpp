@@ -9,16 +9,16 @@ LeagueTable::LeagueTable(std::size_t teamCount) : rows_(teamCount) {
 }
 
 void LeagueTable::add([[maybe_unused]] const GameResult &result) {
-  // TODO(A): update points, goals, wins, draws, losses
+  // TODO(sylwia): update points, goals, wins, draws, losses
 }
 
 std::vector<TableRow> LeagueTable::sorted() const {
-  // TODO(A): sort by points and after that by the other rules
+  // TODO(sylwia): sort by points and after that by the other rules
   return rows_;
 }
 
 void LeagueTable::reset() {
-  // TODO(A): set all rows back to zero
+  // TODO(sylwia): set all rows back to zero
 }
 
 } // namespace football

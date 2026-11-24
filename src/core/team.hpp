@@ -5,7 +5,7 @@
 namespace football {
 
 // team data read from the input file. Doesn't change during a run
-// TODO(B): add fields for form and second half strength if needed
+// TODO(oliver): add fields for form and second half strength if needed
 struct Team {
   std::string name;
   double elo = 1500.0;    // strength rating
