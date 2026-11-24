@@ -3,7 +3,7 @@
 namespace football {
 
 Schedule makeSchedule([[maybe_unused]] std::size_t teamCount) {
-  // TODO(A): build all rounds
+  // TODO(sylwia): build all rounds
   return {};
 }
 
